@@ -7,6 +7,9 @@ name = "pypi"
 
 [packages]
 
+tweepy = "*"
+textblob = "*"
+nltk = "*"
 
 
 [dev-packages]
