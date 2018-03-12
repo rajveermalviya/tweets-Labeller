@@ -1,5 +1,5 @@
 # Tweets-Labeller
-This is a Natural Language Processing example that uses NLTK for the sentiment analysis of the fetched tweets, and returns weather the tweets have positive,negative or neutral sentiment.
+This is a Natural Language Processing example that uses NLTK for the sentiment analysis of the fetched tweets, and returns whether the tweets have positive,negative or neutral sentiment.
 
 NLTK uses Machine Learning.
 
