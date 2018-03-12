@@ -29,3 +29,4 @@ Once you have your dependencies installed via pip, run the script in terminal vi
 ```
 python main.py
 ```
+## [License MIT © Rajveer Malviya](https://github.com/rajveermalviya/tweets-Labeller/blob/master/LICENSE)
