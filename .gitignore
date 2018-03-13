@@ -14,3 +14,4 @@ public/webSource/favicon-16x16.png
 public/webSource/favicon-32x32.png
 public/webSource/favicon-96x96.png
 public/webSource/manifest.json
+public/service-worker.js
