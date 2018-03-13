@@ -1,0 +1,31 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tweet Labeler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <form class="inputCard">
+        <p>Tweet Labeler</p>
+        <label for="user_word_input" id="wordLabel">Enter a Word :</label>
+        <input type="text" placeholder="Word" maxlength="30" id="user_word_input" required>
+        <label for="tweet_count_input" id="countLabel">Tweet Count :</label>
+        <input type="number" placeholder="Count" min="1" max="100" id="tweet_count_input" required>
+        <input type="submit" value="Go" id="button">
+        <input type="reset" value="Reset" id="resetbtn">
+    </form>
+    <div class="outputBox">
+        <p class="outputTitle">Labeled Tweets :</p>
+            <p class="negative">DAMN</p>
+            <p class="positive">Good</p>
+            <p class="neutral">Okay</p>
+    </div>
+</body>
+
+</html>

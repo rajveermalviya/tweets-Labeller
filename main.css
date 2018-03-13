@@ -1,0 +1,476 @@
+﻿@font-face {
+    font-family: "Product Sans Regular";
+    src: url('fonts/Product Sans Regular.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans Bold";
+    src: url('fonts/Product Sans Bold.ttf');
+}
+
+.color {
+    color: Primary #eceff1;
+    color: P — Light #ffffff;
+    color: P — Dark #babdbe;
+    color: Secondary #263238;
+    color: S — Light #4f5b62;
+    color: S — Dark #000a12;
+    color: Red #D91E18;
+    color: green #26a65b;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: #babdbe;
+        font-family: 'Product Sans Regular', sans-serif;
+        transition: all .3s;
+    }
+    .inputCard {
+        color: #263238;
+        background: #eceff1;
+        padding: 5vw;
+        padding-top: .1vw;
+        width: 86vw;
+        height: 75vw;
+        font-size: 5vw;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+    .inputCard p {
+        font-family: "Product Sans Bold";
+        font-size: 10vw;
+        transition: all .3s;
+    }
+    #wordLabel {
+        position: absolute;
+        transition: top .3s;
+        top: 35vw;
+    }
+    #countLabel {
+        position: absolute;
+        top: 45vw;
+        transition: top .3s;
+    }
+    #user_word_input {
+        font-size: 5vw;
+        width: 45vw;
+        position: absolute;
+        left: 45vw;
+        top: 35vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #user_word_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+    }
+    #tweet_count_input {
+        font-size: 5vw;
+        position: absolute;
+        top: 45vw;
+        left: 45vw;
+        width: 45vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #tweet_count_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+    }
+    #button {
+        font-size: 5vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 30vw;
+        height: 10vw;
+        position: absolute;
+        top: 65vw;
+        left: 60vw;
+        outline: none;
+        background: #263238;
+        border: 2px;
+        color: #eceff1;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    #button:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+    }
+    #resetbtn:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+    }
+    #resetbtn {
+        font-size: 5vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 30vw;
+        height: 10vw;
+        position: absolute;
+        outline: none;
+        left: 10vw;
+        top: 65vw;
+        background: #263238;
+        color: #eceff1;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    .outputBox{
+        background: #263238;
+        width: 93vw;
+        position: absolute;
+        top: 85vw;
+        border-radius:5px;
+        color: #babdbe;
+        padding: 1.5vw;
+        transition: all .3s;
+    }
+    .outputTitle{
+        font-size: 6vw;
+        padding-left:2vw; 
+    }
+    .negative{
+        background: #D91E18;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+    .neutral{
+        background: #eceff1;
+        color: #263238;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+    .positive{
+        background: #26a65b;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 601px) {
+    body {
+        background: #babdbe;
+        font-family: 'Product Sans Regular', sans-serif;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        transition: all .3s;
+    }
+    .inputCard {
+        color: #263238;
+        background: #eceff1;
+        padding: 2.5vw;
+        padding-top: 1vw;
+        width: 43.5vw;
+        height: 37.5vw;
+        font-size: 2.5vw;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+    .inputCard p {
+        font-family: "Product Sans Bold";
+        font-size: 5vw;
+        transition: all .3s;
+    }
+    #wordLabel {
+        position: absolute;
+        transition: top .3s;
+        top: 22vw;
+    }
+    #countLabel {
+        position: absolute;
+        top: 28vw;
+        transition: top .3s;
+    }
+    #user_word_input {
+        font-size: 2.5vw;
+        width: 22.5vw;
+        position: absolute;
+        top: 22vw;
+        left: 45vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #user_word_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+    }
+    #tweet_count_input {
+        font-size: 2.5vw;
+        position: absolute;
+        top: 28vw;
+        left: 45vw;
+        width: 22.5vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #tweet_count_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+        transition: all .3s;
+    }
+    #button {
+        font-size: 2.5vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 15vw;
+        height: 5vw;
+        position: absolute;
+        top: 37vw;
+        left: 55vw;
+        outline: none;
+        background: #263238;
+        border: 2px;
+        color: #eceff1;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    #button:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+        transition: all .3s;
+    }
+    #resetbtn:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+        transition: all .3s;
+    }
+    #resetbtn {
+        font-size: 2.5vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 15vw;
+        height: 5vw;
+        position: absolute;
+        outline: none;
+        left: 28vw;
+        top: 37vw;
+        background: #263238;
+        color: #eceff1;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    .outputBox {
+        background: #263238;
+        width: 80vw;
+        position: absolute;
+        top: 48vw;
+        left: 8vw;
+        border-radius: 5px;
+        color: #babdbe;
+        padding: 1.5vw;
+        transition: all .3s;
+    }
+
+    .outputTitle {
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+
+    .negative {
+        background: #D91E18;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+
+    .neutral {
+        background: #eceff1;
+        color: #263238;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+
+    .positive {
+        background: #26a65b;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+}
+
+@media screen and (min-width: 1151px) {
+    body {
+        background: #babdbe;
+        font-family: 'Product Sans Regular', sans-serif;
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 5%;
+        transition: all .3s;
+    }
+    .inputCard {
+        color: #263238;
+        background: #eceff1;
+        padding: 1.25vw;
+        padding-top: 1vw;
+        width: 21.5vw;
+        height: 18.75vw;
+        font-size: 1.25vw;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+    .inputCard p {
+        font-family: "Product Sans Bold";
+        font-size: 2.5vw;
+        transition: all .3s;
+    }
+    #wordLabel {
+        position: absolute;
+        transition: top .3s;
+        top: 14vw;
+    }
+    #countLabel {
+        position: absolute;
+        top: 17vw;
+        transition: top .3s;
+    }
+    #user_word_input {
+        font-size: 1.25vw;
+        width: 11.25vw;
+        position: absolute;
+        left: 50vw;
+        top: 14vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #user_word_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+    }
+    #tweet_count_input {
+        font-size: 1.25vw;
+        position: absolute;
+        top: 17vw;
+        left: 50vw;
+        width: 11.25vw;
+        background: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom-color: #babdbe;
+        outline: none;
+        transition: all .3s;
+    }
+    #tweet_count_input:focus {
+        border-bottom-color: #263238;
+        transition: all .3s;
+    }
+    #button {
+        font-size: 1.25vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 7.5vw;
+        height: 2.5vw;
+        position: absolute;
+        top: 22vw;
+        left: 55vw;
+        outline: none;
+        background: #263238;
+        color: #eceff1;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    #button:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+    }
+    #resetbtn:active {
+        transform: scale(.95);
+        transition: all .3s;
+        box-shadow: 0em 0em 0em rgba(0, 0, 0, 0);
+    }
+    #resetbtn {
+        font-size: 1.25vw;
+        font-family: 'Product Sans Bold', sans-serif;
+        position: absolute;
+        width: 7.5vw;
+        height: 2.5vw;
+        position: absolute;
+        outline: none;
+        left: 41.5vw;
+        top: 22vw;
+        background: #263238;
+        color: #eceff1;
+        border: 0px;
+        border-radius: 5px;
+        box-shadow: .3em .3em .5em rgba(0, 0, 0, .3);
+        transition: all .3s;
+    }
+    .outputBox {
+        background: #263238;
+        width: 80vw;
+        position: absolute;
+        top: 28vw;
+        left: 8vw;
+        border-radius: 5px;
+        color: #babdbe;
+        padding: 1.5vw;
+        transition: all .3s;
+    }
+    .outputTitle {
+        font-size: 2vw;
+        padding-left: 2vw;
+    }
+    .negative {
+        background: #D91E18;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+
+    .neutral {
+        background: #eceff1;
+        color: #263238;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+
+    .positive {
+        background: #26a65b;
+        color: #eceff1;
+        border-radius: 3px;
+        padding: 2vw;
+    }
+}
