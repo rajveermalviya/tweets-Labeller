@@ -38,8 +38,7 @@ def startapp():
                 else:
                     print("\nNeutral Statement\n")
                     neutral_tweets = neutral_tweets + 1
-                print(
-                    "-------------------------------------------------------------------------")
+                print("-------------------------------------------------------------------------")
         print("\nNegative Count::")
         print(negative_tweets)
         print("\nPositive Count::")
