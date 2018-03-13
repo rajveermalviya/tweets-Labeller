@@ -11,17 +11,11 @@ def startapp():
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth)
-    except:
-        print("\nAuthentication Failed!!\n")
-        input("\n\nPress Any Key To Exit\n\n")
-        exit
-    try:
         userstring = input('\n\nEnter the Keyword\n\n')
-        tweet_count = int(
-            input('\n\nEnter no. of Tweets to check (MAX=100)\n\n'))
+        tweet_count = int(input('\n\nEnter no. of Tweets to check (MAX=100)\n\n'))
         public_tweets = api.search(userstring, count=tweet_count)
     except:
-        print("\nINVALID INPUT!!\n")
+        print("\nINVALID INPUT!! or AUTHENTICATION FAILED\n")
         input("\n\nPress Any Key To Exit\n\n")
         exit
     positive_tweets = 0
@@ -31,7 +25,7 @@ def startapp():
         for tweet in public_tweets:
                 print(
                     "-------------------------------------------------------------------------")
-                print("USERNAME\t", tweet.user.screen_name)
+                print("USERNAME\t@", tweet.user.screen_name)
                 print("\n")
                 print("TWEET TEXT -- ", tweet.text)
                 print("\n")
@@ -58,8 +52,6 @@ def startapp():
         print("\n\nTWEET NOT FOUND OR NO INTERNET ACCESS\n\n")
         input("\n\nPress Any Key To Exit\n\n")
         exit
-
-
 try:
     startapp()
 except:
