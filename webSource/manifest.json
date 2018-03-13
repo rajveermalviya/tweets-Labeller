@@ -3,7 +3,7 @@
   "name": "Tweet Labeller for labelling tweets.",
   "display": "standalone",
   "theme_color": "#263238",
-  "start_url": "/",
+  "start_url": "/index.html",
   "icons": [
   {
    "src": "android-icon-36x36.png",
