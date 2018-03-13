@@ -19,6 +19,7 @@ def startapp():
         input("\n\nPress Any Key To Exit\n\n")
         exit
     positive_tweets = 0
+    negative_tweets = 0
     neutral_tweets = 0
     try:
         for tweet in public_tweets:
