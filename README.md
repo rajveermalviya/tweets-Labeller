@@ -16,6 +16,7 @@ It uses tweepy for fetching the tweets.
 * tweepy (http://www.tweepy.org/)
 * textblob (https://textblob.readthedocs.io/en/dev/)
 * install the nltk_data by 
+
 ```
 python -m textblob.download_corpora
 ```
@@ -29,3 +30,4 @@ Once you have your dependencies installed via pip, run the script in terminal vi
 ```
 python main.py
 ```
+## [License MIT © Rajveer Malviya](https://github.com/rajveermalviya/tweets-Labeller/blob/master/LICENSE)
