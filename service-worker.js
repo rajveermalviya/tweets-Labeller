@@ -1,9 +1,11 @@
-self.addEventListener('install', function(e) {
-
-    e.waitUntil(caches.open('tweets-Labeller').then(function(cache) {
-
-        return cache.addAll(['/', '/index.html', '/index.html?homescreen=1', '/?homescreen=1', ]);
-
-    }));
-
-});
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(cacheName).then(function(cache) {
+      return cache.addAll(
+        [
+          '/index.html'
+        ]
+      );
+    })
+  );
+})
