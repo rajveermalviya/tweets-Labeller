@@ -1,4 +1,3 @@
-importScripts('polyfill.js');
 self.addEventListener('install', function(e) {
 
     e.waitUntil(caches.open('tweets-Labeller').then(function(cache) {
