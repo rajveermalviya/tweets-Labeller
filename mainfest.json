@@ -1,7 +1,7 @@
 {
   "short_name": "TweetLabeller",
   "name": "Tweet Labeller for labelling tweets.",
-  "start_url": "index.html?launcher=true"
-  "display": "standalone"
-  "theme_color": "#263238"
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "theme_color": "#263238",
 }
