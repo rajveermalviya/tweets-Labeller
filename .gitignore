@@ -2,8 +2,6 @@
 firebase.json
 public/index.html
 public/webSource/android-icon-48x48.png
-public/webSource/Product Sans Bold.ttf
-public/webSource/Product Sans Regular.ttf
 public/webSource/android-icon-144x144.png
 public/webSource/android-icon-192x192.png
 public/webSource/android-icon-36x36.png
@@ -17,3 +15,5 @@ public/webSource/manifest.json
 service-worker.js
 public/webSource/Product Sans Light.woff2
 public/webSource/Product Sans.woff2
+public/webSource/ProductSans.woff2
+public/webSource/ProductSansLight.woff2
