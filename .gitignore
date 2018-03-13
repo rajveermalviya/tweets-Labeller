@@ -1,3 +1,16 @@
 .firebaserc
 firebase.json
 public/index.html
+public/webSource/android-icon-48x48.png
+public/webSource/Product Sans Bold.ttf
+public/webSource/Product Sans Regular.ttf
+public/webSource/android-icon-144x144.png
+public/webSource/android-icon-192x192.png
+public/webSource/android-icon-36x36.png
+public/webSource/android-icon-72x72.png
+public/webSource/android-icon-96x96.png
+public/webSource/favicon.ico
+public/webSource/favicon-16x16.png
+public/webSource/favicon-32x32.png
+public/webSource/favicon-96x96.png
+public/webSource/manifest.json
