@@ -23,8 +23,7 @@ def startapp():
     neutral_tweets = 0
     try:
         for tweet in public_tweets:
-                print(
-                    "-------------------------------------------------------------------------")
+                print("-------------------------------------------------------------------------")
                 print("USERNAME\t@", tweet.user.screen_name)
                 print("\n")
                 print("TWEET TEXT -- ", tweet.text)
