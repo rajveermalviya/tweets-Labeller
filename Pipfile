@@ -8,8 +8,8 @@ name = "pypi"
 [packages]
 
 tweepy = "*"
-textblob = "*"
-nltk = "*"
+google-cloud = "*"
+flask = "*"
 pylint = "*"
 
 

@@ -1,24 +1,4 @@
-.firebaserc
-firebase.json
-public/index.html
-public/webSource/android-icon-48x48.png
-public/webSource/android-icon-144x144.png
-public/webSource/android-icon-192x192.png
-public/webSource/android-icon-36x36.png
-public/webSource/android-icon-72x72.png
-public/webSource/android-icon-96x96.png
-public/webSource/favicon.ico
-public/webSource/favicon-16x16.png
-public/webSource/favicon-32x32.png
-public/webSource/favicon-96x96.png
-public/webSource/manifest.json
-service-worker.js
-public/webSource/Product Sans Light.woff2
-public/webSource/Product Sans.woff2
-public/webSource/ProductSans.woff2
-public/webSource/ProductSansLight.woff2
+__pycache__/main.cpython-36.pyc
+credentials.json
 .vscode/settings.json
-public/webSource/android-icon-512x512.png
-functions/package.json
-functions/.eslintrc.json
-functions/index.js
+__pycache__/main2.cpython-36.pyc
