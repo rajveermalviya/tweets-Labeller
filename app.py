@@ -15,24 +15,24 @@ def sw():
 def index():
     return render_template('index.html')
 
-@app.errorhandler(404)
-def page_not_found(e):
-    return redirect("https://tweets-labeller.herokuapp.com/")
+# @app.errorhandler(404)
+# def page_not_found(e):
+#     return redirect("https://tweets-labeller.herokuapp.com/")
 
 
-@app.errorhandler(403)
-def forbidden(e):
-    return redirect("https://tweets-labeller.herokuapp.com/")
+# @app.errorhandler(403)
+# def forbidden(e):
+#     return redirect("https://tweets-labeller.herokuapp.com/")
 
 
-@app.errorhandler(410)
-def gone(e):
-    return redirect("https://tweets-labeller.herokuapp.com/")
+# @app.errorhandler(410)
+# def gone(e):
+#     return redirect("https://tweets-labeller.herokuapp.com/")
 
 
-@app.errorhandler(500)
-def internal_error(e):
-    return redirect("https://tweets-labeller.herokuapp.com/")
+# @app.errorhandler(500)
+# def internal_error(e):
+#     return redirect("https://tweets-labeller.herokuapp.com/")
 
 @app.route('/', methods = ["POST"])
 def form():
