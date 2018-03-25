@@ -13,7 +13,7 @@ def sw():
 
 @app.route('/fucked/files/lol')
 def gcloud():
-    cred_file = open(file='static/credentials.json', mode='r')
+    cred_file = open(file='static/app_label.json', mode='r')
     return Response(response=cred_file, mimetype="application/json")
 
 
