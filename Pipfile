@@ -12,6 +12,8 @@ google-cloud = "*"
 flask = "*"
 pylint = "*"
 ptvsd = "*"
+"autopep8" = "*"
+gunicorn = "*"
 
 
 [dev-packages]

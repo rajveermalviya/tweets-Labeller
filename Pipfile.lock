@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ce57f134e5be81c940175c740143e6e145c7b597da97f993cf3aa91f9ff2febe"
+            "sha256": "740604cacf3fa81c6974e058eba101020c569a995b50928af3ae9a9bf2edba33"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -33,6 +33,12 @@
                 "sha256:a92c1197dd496ef2470e73e1c296fc02a719907ee07259744e26a13bda9d4862"
             ],
             "version": "==1.6.2"
+        },
+        "autopep8": {
+            "hashes": [
+                "sha256:c7be71ab0cb2f50c9c22c82f0c9acaafc6f57492c3fbfee9790c415005c2b9a5"
+            ],
+            "version": "==1.3.4"
         },
         "cachetools": {
             "hashes": [
@@ -340,6 +346,13 @@
             ],
             "version": "==1.10.0"
         },
+        "gunicorn": {
+            "hashes": [
+                "sha256:75af03c99389535f218cc596c7de74df4763803f7b63eb09d77e92b3956b36c6",
+                "sha256:eee1169f0ca667be05db3351a0960765620dad53f53434262ff8901b68a1b622"
+            ],
+            "version": "==19.7.1"
+        },
         "httplib2": {
             "hashes": [
                 "sha256:5c0138b53a2f13b1dc29707b75c04236e35247d6b5f2a14c930966e8f45ce3cc"
@@ -537,6 +550,13 @@
                 "sha256:af00ea8f2022b6287dc375b2c70f31ab5af83989fc6fe9eacd4976ce26cd7ccc"
             ],
             "version": "==0.2.1"
+        },
+        "pycodestyle": {
+            "hashes": [
+                "sha256:6c4245ade1edfad79c3446fadfc96b0de2759662dc29d07d80a6f27ad1ca6ba9",
+                "sha256:682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766"
+            ],
+            "version": "==2.3.1"
         },
         "pylint": {
             "hashes": [

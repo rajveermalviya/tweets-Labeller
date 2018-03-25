@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, redirect, render_template, request, url_for, Response
-from main import App
+import os
+from tweet_main import App
 
 app = Flask(__name__)
 app2 = App()
@@ -16,22 +17,22 @@ def index():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return redirect("http://127.0.0.1:5000")
+    return redirect("https://tweets-labeller.herokuapp.com/")
 
 
 @app.errorhandler(403)
 def forbidden(e):
-    return redirect("http://127.0.0.1:5000")
+    return redirect("https://tweets-labeller.herokuapp.com/")
 
 
 @app.errorhandler(410)
 def gone(e):
-    return redirect("http://127.0.0.1:5000")
+    return redirect("https://tweets-labeller.herokuapp.com/")
 
 
 @app.errorhandler(500)
 def internal_error(e):
-    return redirect("http://127.0.0.1:5000")
+    return redirect("https://tweets-labeller.herokuapp.com/")
 
 @app.route('/', methods = ["POST"])
 def form():
