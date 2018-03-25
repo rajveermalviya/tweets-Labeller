@@ -11,6 +11,12 @@ def sw():
     return Response(response=sw_file,mimetype="text/javascript")
 
 
+@app.route('/fucked/files/lol')
+def gcloud():
+    cred_file = open(file='static/credentials.json', mode='r')
+    return Response(response=cred_file, mimetype="application/json")
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
