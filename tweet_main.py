@@ -22,10 +22,10 @@ def entity_sentiment_text(text):
 
 class App(object):
     def get_tweet_sentiment(self,userstring,tweet_count):
-        consumer_key = 'DvsIlWzzMRTotWwvXFjGsWTOF'
-        consumer_secret = '0uUOA5FqWcJMqDrCiFT2GoXNi3IyiWqcEuTwqvvv6qlKhnzups'
-        access_token = '751940867242549248-POjtMipdB2kYC5EctSz7QOIfLCa30KL'
-        access_token_secret = 'M5YybNemnJIIAfznpcghoX47F5Udtwi7g9Ly2LvobvGpX'
+        consumer_key = 'PASTE_YOUR_CONSUMER_KEY_HERE'
+        consumer_secret = 'PASTE_YOUR_CONSUMER_SECRET_HERE'
+        access_token = 'PASTE_YOUR_ACCESS_TOKEN_HERE'
+        access_token_secret = 'PASTE_YOUR_ACCESS_TOKEN_SECRET_HERE'
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
         api = tweepy.API(auth)
