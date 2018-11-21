@@ -3,9 +3,6 @@ This is a Natural Language Processing example that uses Google's Natural Languag
 
 It uses tweepy for fetching the tweets.
 
-## [See it working!](https://tweets-labeller.herokuapp.com/) 
-
-
 ## Requirements
 
 * You need to have some keys, You can get it from here (https://apps.twitter.com/) 
